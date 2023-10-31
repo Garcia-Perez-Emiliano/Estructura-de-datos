@@ -1,0 +1,8 @@
+digraph holamundo{
+  ini[label="Inicio"]
+  hola[label="Hola mundo" shape=rect]
+  fin[label="Fin"]
+  
+  ini -> hola
+  hola -> fin
+   }

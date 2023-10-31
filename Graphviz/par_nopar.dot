@@ -1,0 +1,15 @@
+digraph par_nopar{
+  ini[label="Inicio"]
+  ingre[label="Ingresa un numero" shape=rect]
+  camino[label="(num%2) == 0" shape=diamond]
+  par[label="No es par" shape=rect]
+  es_par[label="Es par" shape=rect]
+  fin[label="Fin"]
+  
+  ini -> ingre
+  ingre -> camino
+  camino -> par[label="si"]
+  camino -> es_par[label="no"]
+  par -> fin
+  es_par -> fin
+}

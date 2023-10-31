@@ -1,0 +1,20 @@
+digraph arbol{
+  45[color=blue]
+  23[color=green]
+  65[color=green]
+  2[color=red]
+  38[color=red]
+  52[color=red]
+  96[color=red]
+  7[color=yellow]
+  48[color=yellow]
+  
+  45 -> 23
+  45 -> 65
+  23 -> 2
+  23 -> 38
+  2 -> 7
+  65 -> 52
+  52 ->48
+  65 -> 96
+  }
